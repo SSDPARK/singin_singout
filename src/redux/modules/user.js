@@ -63,8 +63,8 @@ const loginDB = (id, pwd) => {
 
 const signUpDB = (id, nickname, pwd, pwdcheck) => {
   return function (dispatch) {
-    console.log(id, nickname, pwd, pwdcheck);
-    return;
+    // console.log(id, nickname, pwd, pwdcheck);
+    // return;
     const axios = require('axios');
     axios
       .post(`http://13.124.187.20/api/register`, {
